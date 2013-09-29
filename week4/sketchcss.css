@@ -1,0 +1,22 @@
+#sketch{
+	width:600px;
+	margin:0 auto;
+}
+
+body{
+	background:#CCC;
+}
+p{
+	background-color:#EBEBEB;
+	font-family:Helvetica;
+	color:#F00;
+	border:solid #2C2C2C 2px;
+}
+h1{
+	color:#F00;
+	font-family:Verdana;
+}
+
+img{
+	border:solid #2C2C2C 5px;
+}
