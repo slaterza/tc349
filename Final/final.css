@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+html body{
+	background-color:#999;
+	margin:0;
+	padding:0;
+}
+header{
+	text-align:center;
+
+}
+@font-face {
+	font-family:Starjedi;
+	src: url(Starjedi.ttf);
+}
+.nav{
+	background-image:url(Images/escheresque_ste.png);
+	margin:15px auto;
+	width:1000px;
+	padding:10px;
+}
+.current{
+	color:#fff;
+	font-family:Starjedi;
+	padding:0 45px;
+	font-size:24px;
+}
+.nav a{
+	text-align:center;
+	text-decoration:none;
+	font-family:Starjedi;
+	font-size:24px;
+	color:#090;
+	padding:0 45px;
+}
+.container{
+	width:1000px;
+	background-image:url(Images/escheresque_ste.png);
+	margin:15px auto;
+	padding:10px;
+	font-family:Starjedi;
+}
+.container p{
+	color:#090;
+	padding-left:60px;
+	width:900px;
+}
+.container ul{
+	color:#090;
+	padding-left:80px;
+}
+.container h1{
+	color:#fff;
+	text-align:center;
+}
+.left{
+	width:1000px;
+	background-image:url(Images/escheresque_ste.png);
+	margin:15px auto;
+	padding:10px;
+	font-family:Starjedi;
+	overflow:auto
+}
+.left h1{
+	color:#fff;
+	text-align:center;
+}
+.left p{
+	color:#090;
+}
+
+.right{
+	width:1000px;
+	background-image:url(Images/escheresque_ste.png);
+	margin:15px auto;
+	padding:10px;
+	font-family:Starjedi;
+	overflow:auto;
+}
+.right h1{
+	color:#fff;
+	text-align:center;
+}
+.right p{
+	color:#090;
+}
+
+
+.links{
+	background-image:url(Images/escheresque_ste.png);
+	margin:15px auto;
+	width:1000px;
+	padding:10px;
+	text-align:center;
+	font-family:Starjedi;
+}
+.links p{
+	color:#090;
+}
+.links a{
+	text-decoration:none;
+	color:#0F0;
+}
+.Limages{
+	text-align:center;
+	width:45%;
+	float:left;
+}
+.Rimages{
+	width:45%;
+	float:right;
+	text-align:center;
+}
+.images{
+	width:361px;
+	padding:10px;
+
+}
+
+#time{
+	width:1000px;
+	height:1200px;
+	background-image:url(Images/time.gif);
+	margin:15px auto;
+}
+
+.righttime{
+	width:300px;
+	margin:0 0 0 550px;
+	background-color:#090;
+	padding:0 0 0 20px;;
+}
+.righttime p{
+	padding:0;
+}
+.righttime h3{
+	text-align:center;
+	font-size:20px;
+}
+
+.lefttime{
+	width:300px;
+	margin:0 0 0 130px;
+	background-color:#090;
+	padding:0 0 0 20px;;
+}
+.lefttime p{
+	padding:0;
+}
+.lefttime h3{
+	text-align:center;
+	font-size:20px;
+}
+
+@media (max-width: 800px){
+	header{
+		width:auto;
+	}
+	.nav{
+		width:80%;
+	}
+	.nav a{
+		padding:0 35px;
+	}
+	.links{
+		width:80%;
+	}
+	.Rimages{
+		float:none;
+	}
+	.Limages{
+		float:none;
+	}
+	.right{
+		width:80%;
+	}
+	.left{
+		width:80%;
+	}
+	.container{
+		width:80%;
+	}
+	.container p{
+		width:auto;
+	}
+	header img{
+		width:90%;
+	}
+
+}
